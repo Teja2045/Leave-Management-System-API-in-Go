@@ -26,7 +26,7 @@ type User struct {
 	Type     string `bson:"type,omitempty"`
 }
 
-func main() {
+func Mmain() {
 
 	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb+srv://ritvik:ritvik@cluster0.x1pdgs7.mongodb.net/?retryWrites=true&w=majority"))
 	if err != nil {
